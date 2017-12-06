@@ -3,6 +3,7 @@ import GuessForm from './guess-form';
 import GuessList from './guess-list';
 import Feedback from './feedback';
 import GuessCount from './guess-count';
+import ResetGame from './resetGame';
 import './game.css'
 
 export default class Game extends React.Component {
@@ -45,7 +46,7 @@ export default class Game extends React.Component {
 	render() {
 		return (
 		<div id="game-section">
-			
+				<ResetGame resetGame={this.resetGame}/>
 			<h1>Hot or Cold</h1>
 			<div id="game-container">
 				<Feedback guessFeedback={this.state.guessFeedback}/>
