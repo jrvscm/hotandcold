@@ -1,0 +1,14 @@
+#userGuess {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#submit-guess-button {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
